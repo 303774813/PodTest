@@ -11,6 +11,7 @@
 #endif
 
 #import "YKBaseView.h"
+#import "YKHelp.h"
 
 FOUNDATION_EXPORT double PodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodTestVersionString[];

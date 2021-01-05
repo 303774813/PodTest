@@ -7,7 +7,7 @@
 //
 
 #import "YKViewController.h"
-
+#import <PodTest/YKHelp.h>
 @interface YKViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    [YKBaseView printFrameString];
+    YKHelp *help = [YKHelp new];
+    [help sayHi];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
