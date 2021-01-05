@@ -1,0 +1,6 @@
+framework module YKFramework {
+  umbrella header "YKFramework.h"
+
+  export *
+  module * { export * }
+}
