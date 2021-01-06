@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
    s.resource_bundles = {
      'PodTest' => ['PodTest/Assets/PodA.bundle']
      'PodTest' => ['PodTest/Assets/header4.jpeg']
-     'PodTest' => ['PodTest/Assets/YKFramework.framework']
+#     'PodTest' => ['PodTest/Assets/YKFramework.framework']
 
    }
 
