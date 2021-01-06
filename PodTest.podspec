@@ -31,12 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PodTest/Classes/**/*'
-  
+
    s.resource_bundles = {
      'PodTest2' => ['PodTest/Assets/header4.jpeg'],
      'PodTest1' => ['PodTest/Assets/PodA.bundle']
 #     'PodTest3' => ['PodTest/Assets/YKFramework.framework']
    }
+   s.resource = "Resources/PodA.bundle"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
