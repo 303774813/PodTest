@@ -1,7 +1,7 @@
 {
   "name": "PodTest",
-  "version": "0.1.0",
-  "summary": "A short description of PodTest.",
+  "version": "0.0.9",
+  "summary": "0.0.9  banben.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/303774813/PodTest",
   "license": {
@@ -13,10 +13,30 @@
   },
   "source": {
     "git": "https://github.com/303774813/PodTest.git",
-    "tag": "0.1.0"
+    "tag": "0.0.9"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PodTest/Classes/**/*"
+  "source_files": "PodTest/Classes/**/*",
+  "resource_bundles": {
+    "PodTest2": [
+      "PodTest/Assets/header4.jpeg"
+    ],
+    "PodTest1": [
+      "PodTest/Assets/PodA.bundle"
+    ],
+    "PodTest3": [
+      "PodTest/Assets/YKFramework.framework"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }
