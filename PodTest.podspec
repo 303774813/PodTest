@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '0.1.1'
-  s.summary          = '0.1.1  banben.'
+  s.version          = '0.1.2'
+  s.summary          = '0.1.2  banben.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,6 +27,8 @@ TODO: Add long description of the pod here.
   s.author           = { '303774813' => 'wangchao7@yiche.com' }
   s.source           = { :git => 'https://github.com/303774813/PodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.resource = 'PodTest/Assets/PodA.bundle'
+  s.vendored_frameworks = 'PodTest/Assets/YKFramework.framework'
 
   s.ios.deployment_target = '9.0'
 
@@ -34,10 +36,10 @@ TODO: Add long description of the pod here.
 
    s.resource_bundles = {
      'PodTest2' => ['PodTest/Assets/header4.jpeg'],
-     'PodTest1' => ['PodTest/Assets/PodA.bundle']
+#     'PodTest1' => ['PodTest/Assets/PodA.bundle']
 #     'PodTest3' => ['PodTest/Assets/YKFramework.framework']
    }
-   s.resource = "Resources/PodA.bundle"
+#   s.resource = "Resources/PodA.bundle"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
