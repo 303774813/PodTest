@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '0.1.3'
-  s.summary          = '0.1.3  banben.'
+  s.version          = '0.1.5'
+  s.summary          = '0.1.5  banben.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
 #     'PodTest1' => ['PodTest/Assets/PodA.bundle']
 #     'PodTest3' => ['PodTest/Assets/YKFramework.framework']
    }
-  s.vendored_libraries  = 'PodTest/Classes/YKStaticLite/*.{a}'
+  s.vendored_libraries = 'PodTest/Classes/YKStaticLite/libYKStaticLite.a'
   #该目录下的.a静态库
   s.static_framework = true
   #指定pod加静态库标签
