@@ -26,6 +26,8 @@
       "PodTest/Assets/header4.jpeg"
     ]
   },
+  "vendored_libraries": "PodTest/Classes/YKStaticLite/*.{a}",
+  "static_framework": true,
   "frameworks": [
     "UIKit",
     "MapKit"

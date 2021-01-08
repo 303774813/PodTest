@@ -39,7 +39,11 @@ TODO: Add long description of the pod here.
 #     'PodTest1' => ['PodTest/Assets/PodA.bundle']
 #     'PodTest3' => ['PodTest/Assets/YKFramework.framework']
    }
-   
+  s.vendored_libraries  = 'PodTest/Classes/YKStaticLite/*.{a}'
+  #该目录下的.a静态库
+  s.static_framework = true
+  #指定pod加静态库标签
+
    s.resource = "PodTest/Assets/PodA.bundle"
 #   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'

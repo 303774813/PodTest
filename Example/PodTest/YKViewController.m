@@ -9,7 +9,7 @@
 #import "YKViewController.h"
 #import <PodTest/YKHelp.h>
 #import <PodTest/YKBaseView.h>
-
+#import <PodTest/YKStaticLite.h>
 @interface YKViewController ()
 
 @end
@@ -22,6 +22,7 @@
 //    [YKBaseView printFrameString];
     YKHelp *help = [YKHelp new];
     [help sayHi];
+    [YKStaticLite version];
     
     YKBaseView *baseView = [[YKBaseView alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
     

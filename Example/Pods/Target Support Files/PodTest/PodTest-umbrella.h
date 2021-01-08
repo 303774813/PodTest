@@ -12,6 +12,7 @@
 
 #import "YKBaseView.h"
 #import "YKHelp.h"
+#import "YKStaticLite.h"
 
 FOUNDATION_EXPORT double PodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char PodTestVersionString[];
