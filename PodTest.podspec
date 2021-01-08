@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '0.1.5'
-  s.summary          = '0.1.5  banben.'
+  s.version          = '0.1.6'
+  s.summary          = '0.1.6  banben.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -45,7 +45,7 @@ TODO: Add long description of the pod here.
   #指定pod加静态库标签
 
    s.resource = "PodTest/Assets/PodA.bundle"
-#   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'PodTest/Classes/YKStaticLite/*.h'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
 end
