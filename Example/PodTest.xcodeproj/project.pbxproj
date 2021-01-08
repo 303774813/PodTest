@@ -517,6 +517,10 @@
 			baseConfigurationReference = B3BB3831FE1C50080AE04772 /* Pods-PodTest_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PodTest/PodTest-Prefix.pch";
 				INFOPLIST_FILE = "PodTest/PodTest-Info.plist";
@@ -533,6 +537,10 @@
 			baseConfigurationReference = 83311BF06FB42677A2AEA81E /* Pods-PodTest_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PodTest/PodTest-Prefix.pch";
 				INFOPLIST_FILE = "PodTest/PodTest-Info.plist";

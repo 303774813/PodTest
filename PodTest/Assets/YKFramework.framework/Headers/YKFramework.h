@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YKTool.h"
 
 //! Project version number for YKFramework.
 FOUNDATION_EXPORT double YKFrameworkVersionNumber;

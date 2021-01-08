@@ -8,6 +8,8 @@
 
 #import "YKViewController.h"
 #import <PodTest/YKHelp.h>
+#import <PodTest/YKBaseView.h>
+
 @interface YKViewController ()
 
 @end
@@ -20,6 +22,10 @@
 //    [YKBaseView printFrameString];
     YKHelp *help = [YKHelp new];
     [help sayHi];
+    
+    YKBaseView *baseView = [[YKBaseView alloc] initWithFrame:CGRectMake(0, 0, 400, 400)];
+    
+    [self.view addSubview:baseView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTest'
-  s.version          = '0.1.2'
-  s.summary          = '0.1.2  banben.'
+  s.version          = '0.1.3'
+  s.summary          = '0.1.3  banben.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -34,14 +34,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'PodTest/Classes/**/*'
 
-   s.resource_bundles = {
-     'PodTest2' => ['PodTest/Assets/header4.jpeg'],
+  s.resource_bundles = {
+     'PodTest' => ['PodTest/Assets/header4.jpeg'],
 #     'PodTest1' => ['PodTest/Assets/PodA.bundle']
 #     'PodTest3' => ['PodTest/Assets/YKFramework.framework']
    }
-#   s.resource = "Resources/PodA.bundle"
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
+   
+   s.resource = "PodTest/Assets/PodA.bundle"
+#   s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

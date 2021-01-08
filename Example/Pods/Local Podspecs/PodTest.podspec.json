@@ -1,7 +1,7 @@
 {
   "name": "PodTest",
-  "version": "0.1.2",
-  "summary": "0.1.2  banben.",
+  "version": "0.1.3",
+  "summary": "0.1.3  banben.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/303774813/PodTest",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/303774813/PodTest.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "resources": "PodTest/Assets/PodA.bundle",
   "vendored_frameworks": "PodTest/Assets/YKFramework.framework",
@@ -22,7 +22,7 @@
   },
   "source_files": "PodTest/Classes/**/*",
   "resource_bundles": {
-    "PodTest2": [
+    "PodTest": [
       "PodTest/Assets/header4.jpeg"
     ]
   },
